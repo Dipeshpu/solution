@@ -1,0 +1,23 @@
+<div
+  
+>
+  <div class="game-info" fxFlex="1 1 50%">
+    
+    <h4 *ngIf="isDraw" class="subtitle">Game tie!</h4>
+    <button mat-flat-button (click)="newGame()" class="ng-btn">
+      Refresh
+    </button>
+  </div>
+
+  <div class="game-board">
+    <main>
+      <app-square
+        *ngFor="let val of squares; let i = index"
+        [value]="val"
+        [disabled]="disable"
+        (click)="makeMove(i)"
+      ></app-square>
+    </main>
+    <app-scoresheet></app-scoresheet>
+  </div>
+</div>
