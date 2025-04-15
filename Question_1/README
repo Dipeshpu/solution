@@ -1,9 +1,0 @@
-
-Question 1 (10 Marks) 
-
-Write a code in HTML, CSS, JS, React, Angular or any frontend web technology of your choice, to form two list selection. Also, add a Text Area and button below List A, to add rows to the list.
-
-And the user can perform several operations on these like:
-- Move only selected items from List A to List B
-- Move all items from List A to List B
-- Make List B sortable. An item in List B can be moved up or down.
